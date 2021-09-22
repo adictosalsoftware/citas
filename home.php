@@ -19,7 +19,7 @@ foreach($events as $event){
 			eventLimit: true, 
 			events: <?php echo json_encode($thejson); ?>
 		});
-		
+
 	});
 
 </script>
@@ -32,7 +32,7 @@ foreach($events as $event){
       <h4 class="title">CITAS MEDICAS</h4>
   </div>
   <div class="card-content table-responsive">
-<div id="calendar"></div> 
+<div id="calendar"></div>
 </div>
 </div>
 </div>
