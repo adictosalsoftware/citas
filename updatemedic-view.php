@@ -1,5 +1,5 @@
 <?php
-
+/*formulario Modificacion medico*/
 if(count($_POST)>0){
 	$user = MedicData::getById($_POST["user_id"]);
 
